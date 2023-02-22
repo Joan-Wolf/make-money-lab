@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./makemoney.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <form id="money-form">
+        <div class = "input-one">
+        <label for ="number">How many?</label>
+        <input type="number" name = "number" id = "number">
+    </div>
+    <div class = "input-two">
+        <label for = "coinType">Which Coin?</label>
+        <select name="coinType" id="coinType">
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+          </select>
+        </div>
+        <button id = "makeMoney">Make Money!</button>
+    </form>
+
+<div id="coin-container"></div>
+    <script src = "./makemoney.js"></script>
+</main>
+</body>
+</html>
